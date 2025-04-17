@@ -19,6 +19,8 @@ This is a collection of notebooks and data, which will be added to throughout th
 
 * Finish exploring phase transitions in ferromagnets using our 2-D Ising model: [Boltzmann and Ising (and some Metropolis).ipynb](notebooks/Boltzmann%20and%20Ising%20(and%20some%20Metropolis).ipynb)
 * Start building the statistical foundation behind regression: [Intro to Regression.ipynb](notebooks/Intro%20to%20Regression.ipynb)
+* Introduce `JAX` and `numpyro`: [Intro to NumPyro.ipynb](notebooks/Intro%20to%20NumPyro.ipynb)
+* Wrap up our first pass over the solar neighborhood w/ Gaia: [Solar Neighborhood w Gaia.ipynb](notebooks/Solar%20Neighborhood%20w%20Gaia.ipynb)
 
 ## Data Provenance
 
