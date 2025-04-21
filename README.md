@@ -22,6 +22,11 @@ This is a collection of notebooks and data, which will be added to throughout th
 * Introduce `JAX` and `numpyro`: [Intro to NumPyro.ipynb](notebooks/Intro%20to%20NumPyro.ipynb)
 * Wrap up our first pass over the solar neighborhood w/ Gaia: [Solar Neighborhood w Gaia.ipynb](notebooks/Solar%20Neighborhood%20w%20Gaia.ipynb)
 
+### Week 4
+
+* Explore coin flipping example to develop intuition for Bayes' theorem: [Coin Flipping w Numpyro.ipynb](notebooks/Coin%20Flipping%20w%20Numpyro.ipynb)
+* Use `numpyro` to probabilistically model outliers during linear regression: [Modeling Outliers w NumPyro.ipynb](notebooks/Modeling%20Outliers%20w%20NumPyro.ipynb)
+
 ## Data Provenance
 
 ### Exploring births in the US
