@@ -26,6 +26,7 @@ This is a collection of notebooks and data, which will be added to throughout th
 
 * Explore coin flipping example to develop intuition for Bayes' theorem: [Coin Flipping w Numpyro.ipynb](notebooks/Coin%20Flipping%20w%20Numpyro.ipynb)
 * Use `numpyro` to probabilistically model outliers during linear regression: [Modeling Outliers w NumPyro.ipynb](notebooks/Modeling%20Outliers%20w%20NumPyro.ipynb)
+* Use more complex regression to model and extrapolate CO$_2$ emmission on Mauna: [CO2 w NumPyro.ipynb](notebooks/CO2%20w%20NumPyro.ipynb)
 
 ## Data Provenance
 
@@ -65,4 +66,12 @@ This data accompanies [Hogg, Bovy, and Lang (2010)](https://arxiv.org/abs/1008.4
 
 ```bash
 !wget -O ../data/data_yerr.dat https://raw.githubusercontent.com/davidwhogg/DataAnalysisRecipes/master/straightline/src/data_yerr.dat
+```
+
+### CO<sub>2</sub> Concentrations in Mauna Loa, Hawaii
+
+Monthy-averaged CO<sub>2</sub> concentrations measured in Mauna Loa, Hawaii, hosted by the NOAA:
+
+```bash
+!wget -q ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt -O ../data/co2_mm_mlo.txt
 ```
