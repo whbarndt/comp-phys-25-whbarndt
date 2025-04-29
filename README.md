@@ -75,3 +75,11 @@ Monthy-averaged CO<sub>2</sub> concentrations measured in Mauna Loa, Hawaii, hos
 ```bash
 !wget -q ftp://aftp.cmdl.noaa.gov/products/trends/co2/co2_mm_mlo.txt -O ../data/co2_mm_mlo.txt
 ```
+
+### Logistic Regression Synthetic Data
+
+To introduce logistic regression we make use of some data used by Jordi Warmenhoven in their [Coursera Machine Learning course](https://github.com/JWarmenhoven/Coursera-Machine-Learning). 
+```bash
+!wget https://raw.githubusercontent.com/JWarmenhoven/Coursera-Machine-Learning/master/notebooks/data/ex2data1.txt -O ../data/ex2data1.txt
+!wget https://raw.githubusercontent.com/JWarmenhoven/Coursera-Machine-Learning/master/notebooks/data/ex2data2.txt -O ../data/ex2data2.txt
+```
