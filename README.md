@@ -26,7 +26,18 @@ This is a collection of notebooks and data, which will be added to throughout th
 
 * Explore coin flipping example to develop intuition for Bayes' theorem: [Coin Flipping w Numpyro.ipynb](notebooks/Coin%20Flipping%20w%20Numpyro.ipynb)
 * Use `numpyro` to probabilistically model outliers during linear regression: [Modeling Outliers w NumPyro.ipynb](notebooks/Modeling%20Outliers%20w%20NumPyro.ipynb)
-* Use more complex regression to model and extrapolate CO$_2$ emmission on Mauna: [CO2 w NumPyro.ipynb](notebooks/CO2%20w%20NumPyro.ipynb)
+* Use more complex regression to model and extrapolate CO$_2$ emission on Mauna: [CO2 w NumPyro.ipynb](notebooks/CO2%20w%20NumPyro.ipynb)
+
+### Week 5
+
+* Use linear regression on Gaia data to introduce machine learning (ML) terminology and useful notation: [Intro to Machine Learning (w Gaia).ipynb](notebooks/Intro%20to%20Machine%20Learning%20(w%20Gaia).ipynb)
+* Introduce logistic regression for binary classification: [Logistic Regression.ipynb](notebooks/Logistic%20Regression.ipynb)
+
+### Week 6
+
+* Finish our intro to logistic regression: [Logistic Regression.ipynb](notebooks/Logistic%20Regression.ipynb)
+* Use logistic regression to identify quasars in Sloan Digital Sky Survey data: [Logistic Regression w SDSS.ipynb](notebooks/Logistic%20Regression%20w%20SDSS.ipynb)
+
 
 ## Data Provenance
 
@@ -83,3 +94,24 @@ To introduce logistic regression we make use of some data used by Jordi Warmenho
 !wget https://raw.githubusercontent.com/JWarmenhoven/Coursera-Machine-Learning/master/notebooks/data/ex2data1.txt -O ../data/ex2data1.txt
 !wget https://raw.githubusercontent.com/JWarmenhoven/Coursera-Machine-Learning/master/notebooks/data/ex2data2.txt -O ../data/ex2data2.txt
 ```
+
+### SDSS Quasars
+
+This is data collected by the Sloan Digital Sky Survey (SDSS) relating to quasars. The catalogs we'll be using are part of [PSU's astrostatistics datasets](https://sites.psu.edu/astrostatistics/datasets/).  We need three separate files, separated by spectroscopically confirmed classifications.
+
+Spectroscopically confirmed stars:
+```bash
+!wget -q --no-check-certificate -O ../data/SDSS_stars.csv https://raw.githubusercontent.com/Astroinformatics/CAStArchive/refs/heads/main/MSMA/SDSS_stars.csv
+```
+
+white dwarfs:
+```bash
+!wget -q --no-check-certificate -O ../data/SDSS_wd.csv https://raw.githubusercontent.com/Astroinformatics/CAStArchive/refs/heads/main/MSMA/SDSS_wd.csv
+```
+
+and quasars:
+```bash
+!wget -q --no-check-certificate -O ../data/SDSS_QSO.dat https://raw.githubusercontent.com/Astroinformatics/CAStArchive/refs/heads/main/MSMA/SDSS_QSO.dat
+```
+
+More info on the dataset can be found [here](https://sites.psu.edu/astrostatistics/datasets-sdss-quasar/).
